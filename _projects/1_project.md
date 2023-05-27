@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: La nuée
+description: An art installation by Laurent Lamarche. We built hundreds of robots communicating and interacting through light.
+img: assets/img/nuee.jpg
 importance: 1
 category: work
 ---
