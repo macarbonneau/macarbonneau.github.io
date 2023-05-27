@@ -19,6 +19,23 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
+Hi! I'm machine learning researcher.
+
+This site contains information regarding my research. It contains code, data sets and my publications.
+Here's a subset of my research interests:
+- Speech processing
+- Disentangled representations
+- Multiple instance learning
+- Computer vision
+
+
+Since 2017, I work as a research scientist at Ubisoft in the La Forge lab. I lead a small group focusing on speech and sound research applied to video games.
+
+Before that, as a PhD student, I was affiliated with two labs:
+- LIVIA -  Laboratory for Imagery, Vision and Artificial Intelligence [link]
+- LACIME - Communication and Microelectronic Integration Laboratory [link]
+
+
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
