@@ -4,10 +4,10 @@ title: La nuée
 description: An art installation by Laurent Lamarche. We built hundreds of robots communicating and interacting through light.
 img: assets/img/nuee.jpg
 importance: 1
-category: work
+category: Visual Art
 ---
 
-We made this [project](https://laurentlamarche.com/la-nuee-2017) with my friend Laurent Lamarche in 2017. We met every week for one year to discuss ideas, design and build our robots and program them. It was first presented at the Salle Alfred Pellan, Maison des arts de Laval, Laval, Québec, Canada. It later traveled to several locations. We also created a custom hardware sequencer to control the swarm of robots in a [live musical performance](https://youtu.be/lfCTOPWKOoI).
+We made this [project](https://laurentlamarche.com/la-nuee-2017) with my friend [Laurent Lamarche](https://laurentlamarche.com/) in 2017. We met every week for one year to discuss ideas, design and build our robots and program them. It was first presented at the Salle Alfred Pellan, Maison des arts de Laval, Laval, Québec, Canada. It later traveled to several locations. We also created a custom hardware sequencer to control the swarm of robots in a [live musical performance](https://youtu.be/lfCTOPWKOoI).
 
 
 <div class="row justify-content-sm-center">
@@ -50,3 +50,11 @@ We made this [project](https://laurentlamarche.com/la-nuee-2017) with my friend 
     This is what to robot looked like.
 </div>
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.html path="https://youtu.be/lfCTOPWKOoI" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.html path="https://youtu.be/oQNl8NtlRJY" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
