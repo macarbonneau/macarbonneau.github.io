@@ -2,7 +2,7 @@
 layout: page
 title: BrainStorm
 description: A project with visual artist Jean Dubois
-img: assets/img/3.jpg
+img: assets/img/BrainStorm1.jpg
 importance: 2
 category: Visual Art
 ---
@@ -26,9 +26,9 @@ It was presented at the Biennale de Montréal (2011) and during "À Montréal, q
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="https://vimeo.com/109623787?embedded=true&source=vimeo_logo&owner=4474607" class="img-fluid rounded z-depth-1" %}
+        {% include video.html path="https://player.vimeo.com/video/109623787?h=5609ad9881" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="https://vimeo.com/66169578?embedded=true&source=vimeo_logo&owner=18299660" class="img-fluid rounded z-depth-1" %}
+        {% include video.html path="https://player.vimeo.com/video/66169578?h=1df50c4507" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
