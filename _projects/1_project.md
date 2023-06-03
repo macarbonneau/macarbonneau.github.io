@@ -7,14 +7,14 @@ importance: 1
 category: work
 ---
 
-We made this project[https://laurentlamarche.com/la-nuee-2017] with my friend Laurent Lamarche in 2017. We met every week for one year to discuss ideas, design and build our robots and program them. It was first presented at the Salle Alfred Pellan, Maison des arts de Laval, Laval, Québec, Canada. It later traveled to several locations. We also created a custom hardware sequencer to control the swarm of robots in a live musical performance[https://youtu.be/lfCTOPWKOoI].
+We made this [project](https://laurentlamarche.com/la-nuee-2017) with my friend Laurent Lamarche in 2017. We met every week for one year to discuss ideas, design and build our robots and program them. It was first presented at the Salle Alfred Pellan, Maison des arts de Laval, Laval, Québec, Canada. It later traveled to several locations. We also created a custom hardware sequencer to control the swarm of robots in a [live musical performance](https://youtu.be/lfCTOPWKOoI).
 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/expo1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/expo2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
