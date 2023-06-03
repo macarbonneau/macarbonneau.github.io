@@ -89,18 +89,7 @@
                 <a class="nav-link" href="/projects/">projects</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="/repositories/">repositories</a>
-              </li>
-              <li class="nav-item ">
                 <a class="nav-link" href="/cv/">cv</a>
-              </li>
-              <li class="nav-item dropdown ">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">submenus</a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="/publications/">publications</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="/projects/">projects</a>
-                </div>
               </li>
 
               <!-- Toogle theme mode -->
@@ -138,14 +127,27 @@
           <article>
             <!-- _pages/publications.md -->
 <div class="publications">
-  <h2 class="year">2024</h2>
-  <ol class="bibliography"></ol>
-
   <h2 class="year">2023</h2>
   <ol class="bibliography"><li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"></div>
+        <div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/Zeggs-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/Zeggs-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/Zeggs-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/Zeggs.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="Zeggs.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
 
         <!-- Entry bib key -->
         <div id="ZeroEGGS" class="col-sm-8">
@@ -190,7 +192,7 @@
   <span class="na">keywords</span> <span class="p">=</span> <span class="s">{animation, gestures, character control, motion capture}</span><span class="p">,</span>
   <span class="na">doi</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1111/cgf.14734}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14734}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
           </div>
         </div>
@@ -1008,9 +1010,6 @@
       </div>
 </li></ol>
 
-  <h2 class="year">2014</h2>
-  <ol class="bibliography"></ol>
-
   <h2 class="year">2013</h2>
   <ol class="bibliography">
 <li>
@@ -1118,12 +1117,6 @@
       </div>
 </li>
 </ol>
-
-  <h2 class="year">2012</h2>
-  <ol class="bibliography"></ol>
-
-  <h2 class="year">2011</h2>
-  <ol class="bibliography"></ol>
 
 
 </div>
