@@ -33,10 +33,3 @@ I lead a group of resarchers applying the latest techniques in machine learning,
 Before that, as a PhD student, I was affiliated with two labs:
 - LIVIA - [Laboratory for Imagery, Vision and Artificial Intelligence](https://liviamtl.ca/)
 - LACIME - [Communication and Microelectronic Integration Laboratory](https://www.etsmtl.ca/unites-de-recherche/lacime/accueil?lang=en-CA)
-
-
-
-
-You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
