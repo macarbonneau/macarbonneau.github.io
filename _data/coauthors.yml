@@ -5,3 +5,15 @@
 "Holden":
   - firstname: ["Daniel"]
     url: https://theorangeduck.com/
+
+"Gagnon":
+  - firstname: ["Ghyslain"]
+    url: https://www.etsmtl.ca/en/research/professors/ggagnon
+
+"Granger":
+  - firstname: ["Eric"]
+    url: https://www.etsmtl.ca/en/research/professors/egranger
+
+"Ferstl":
+  - firstname: ["Ylva"]
+    url: https://ylvaferstl.wixsite.com/ylvaferstl/publications
