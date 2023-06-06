@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "The way you do any thing is the way you do everything"
+subtitle: 
 
 profile:
   align: right
