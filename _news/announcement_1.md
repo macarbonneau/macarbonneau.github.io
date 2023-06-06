@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am moving my old [personal page](https://sites.google.com/site/marcandrecarbonneau/publications) to github
+I am moving my old [personal page](https://sites.google.com/site/marcandrecarbonneau/publications) to github.
