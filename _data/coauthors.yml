@@ -16,4 +16,21 @@
 
 "Ferstl":
   - firstname: ["Ylva"]
-    url: https://ylvaferstl.wixsite.com/ylvaferstl/publications
+    url: https://ylvaferstl.wixsite.com/ylvaferstl/
+
+"Kamper":
+  - firstname: ["Herman"]
+    url: https://www.kamperh.com
+
+"van Niekerk":
+  - firstname: ["Benjamin"]
+    url: https://github.com/bshall
+
+"Cheplygina":
+  - firstname: ["Veronika"]
+    url: https://veronikach.com/
+
+"Baas":
+  - firstname: ["Matthew"]
+    url: https://rf5.github.io/
+
