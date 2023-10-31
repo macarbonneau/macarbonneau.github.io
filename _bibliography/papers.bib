@@ -15,16 +15,22 @@
   selected={true}
 }
 
-@misc{vanniekerk2023rhythm,
-      title={Rhythm Modeling for Voice Conversion}, 
-      author={Benjamin {van Niekerk} and Marc-André Carbonneau and Herman Kamper},
-      year={2023},
-      eprint={2307.06040},
-      journal ={arXiv},
-      preview={Urhythmic.png},
-      bibtex_show={true},
-      selected={true},
-}
+@ARTICLE{vanniekerk2023rhythm,
+  author={{van Niekerk}, Benjamin and Carbonneau, Marc-André and Kamper, Herman},
+  journal={IEEE Signal Processing Letters}, 
+  title={Rhythm Modeling for Voice Conversion}, 
+  year={2023},
+  volume={30},
+  number={},
+  pages={1297-1301},
+  preview={Urhythmic.png},
+  bibtex_show={true},
+  selected={true},
+  abstract={Voice conversion aims to transform source speech into a different target voice. However, typical voice conversion systems do not account for rhythm, which is an important factor in the perception of speaker identity. To bridge this gap, we introduce Urhythmic—an unsupervised method for rhythm conversion that does not require parallel data or text transcriptions. Using self-supervised representations, we first divide source audio into segments approximating sonorants, obstruents, and silences. Then we model rhythm by estimating speaking rate or the duration distribution of each segment type. Finally, we match the target speaking rate or rhythm by time-stretching the speech segments. Experiments show that Urhythmic outperforms existing unsupervised methods in terms of quality and prosody.},
+  doi={10.1109/LSP.2023.3313515}
+  }
+
+
 
 
 @article{langevin_energy_2021,
@@ -232,9 +238,10 @@ abstract = {Manually creating realistic, digital human heads is a difficult and 
 booktitle = {Proceedings of the 13th ACM SIGGRAPH Conference on Motion, Interaction and Games},
 articleno = {9},
 numpages = {11},
-keywords = {artist controlled character creation, fine facial features, face texture generation, image-to-image translation},
+keywords = {artist controlled character creation, image-to-image translation, face texture generation, fine facial features},
 location = {Virtual Event, SC, USA},
 series = {MIG '20},
+preview={facemig.png},
 bibtex_show={true},
+selected={false},
 }
-

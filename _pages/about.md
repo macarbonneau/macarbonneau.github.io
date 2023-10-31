@@ -28,7 +28,7 @@ Here's a subset of my research interests:
 
 
 Since 2017, I work as a research scientist at Ubisoft in the [La Forge lab](https://www.ubisoft.com/en-us/studio/laforge). 
-I lead a group of resarchers applying the latest techniques in machine learning, speech, signal processingm, computer vision & graphics, animation to video games.
+I lead a group of resarchers applying the latest techniques in machine learning, speech, signal processing, computer vision & graphics, animation to video games.
 
 Before that, as a PhD student, I was affiliated with two labs:
 - LIVIA - [Laboratory for Imagery, Vision and Artificial Intelligence](https://liviamtl.ca/)
