@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-Our paper EDMSound: Spectrogram Based Diffusion Models for Efficient and High-Quality Audio Synthesis has been accepted for presentation at the NeurIPS Workshop on ML for Audio. This work has been done in collaboration with colleagues from Rochester University.
+Our paper [EDMSound: Spectrogram Based Diffusion Models for Efficient and High-Quality Audio Synthesis](https://arxiv.org/abs/2311.08667) has been accepted for presentation at the NeurIPS Workshop on ML for Audio. This work has been done in collaboration with colleagues from Rochester University.
 \
 \
 In this paper, we propose a diffusion-based generative model in spectrogram domain under the framework of elucidated diffusion models (EDM). We also revealed a potential concern regarding diffusion based audio generation models that they tend to generate duplication of the training data. 

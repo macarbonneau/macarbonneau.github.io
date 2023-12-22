@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 Welcome to my page! 
 
-This site contains information regarding my research and some personal projects
+This site contains information regarding my research and some personal projects.
 Here's a subset of my research interests:
 - Machine learning
 - Speech processing
@@ -27,7 +27,7 @@ Here's a subset of my research interests:
 - Computer vision
 
 
-Since 2017, I work as a research scientist at Ubisoft in the [La Forge lab](https://www.ubisoft.com/en-us/studio/laforge). 
+I act as principal research scientist at Ubisoft in the [La Forge lab](https://www.ubisoft.com/en-us/studio/laforge). I work there since 2017. 
 I lead a group of resarchers applying the latest techniques in machine learning, speech, signal processing, computer vision & graphics, animation to video games.
 
 Before that, as a PhD student, I was affiliated with two labs:

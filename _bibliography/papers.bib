@@ -4,9 +4,34 @@
 @string{aps = {American Physical Society,}}
 
 
+@ARTICLE{Dib2023,
+  bibtex_show={true},
+  author={Dib, Abdallah and Hafemann, {Luiz Gustavo} and Got, Emeline and Anderson, Trevor and Fadaeinejad, Amin and Cruz {Rafael M. O.}and Carbonneau, Marc-André},
+  abstract={Reconstructing an avatar from a portrait image has many applications in multimedia, but remains a challenging research problem. Extracting reflectance maps and geometry from one image is ill-posed: recovering geometry is a one-to-many mapping problem and reflectance and light are difficult to disentangle. Accurate geometry and reflectance can be captured under the controlled conditions of a light stage, but it is costly to acquire large datasets in this fashion. Moreover, training solely with this type of data leads to poor generalization with in-the-wild images. This motivates the introduction of MoSAR, a method for 3D avatar generation from monocular images. We propose a semi-supervised training scheme that improves generalization by learning from both light stage and in-the-wild datasets. This is achieved using a novel differentiable shading formulation. We show that our approach effectively disentangles the intrinsic face parameters, producing relightable avatars. As a result, MoSAR estimates a richer set of skin reflectance maps, and generates more realistic avatars than existing state-of-the-art methods.},
+  journal={ArXiv}, 
+  title={MoSAR: Monocular Semi-Supervised Model For Avatar Reconstruction Using Differentiable Shading}, 
+  year={2023},
+  preview={mosar.gif},
+  selected={true}
+}
+
+
+@inproceedings{zhu_2022,
+  title={EDMSound: Spectrogram Based Diffusion Models for Efficient and High-Quality Audio Synthesis},
+  author={Zhu, Ge and Wen, Yutong and Carbonneau, Marc-Andr{\'e} and Duan, Zhiyao},
+  abstract={Audio diffusion models can synthesize a wide variety of sounds. Existing models often operate on the latent domain with cascaded phase recovery modules to reconstruct waveform. This poses challenges when generating high-fidelity audio. In this paper, we propose EDMSound, a diffusion-based generative model in spectrogram domain under the framework of elucidated diffusion models (EDM). Combining with efficient deterministic sampler, we achieved similar Fréchet audio distance (FAD) score as top-ranked baseline with only 10 steps and reached state-of-the-art performance with 50 steps on the DCASE2023 foley sound generation benchmark. We also revealed a potential concern regarding diffusion based audio generation models that they tend to generate samples with high perceptual similarity to the data from training data.},
+  booktitle = {{NeurIPS Workshop: Machine Learning for Audio}},
+  year = {2023},
+	bibtex_show={true},
+  selected={true},
+  preview={edm.png}
+}
+
+
 @ARTICLE{Carbonneau2022,
   bibtex_show={true},
   author={Carbonneau, Marc-André and Zaïdi, Julian and Boilard, Jonathan and Gagnon, Ghyslain},
+  abstract={Learning to disentangle and represent factors of variation in data is an important problem in AI. While many advances have been made to learn these representations, it is still unclear how to quantify disentanglement. While several metrics exist, little is known on their implicit assumptions, what they truly measure, and their limits. In consequence, it is difficult to interpret results when comparing different representations. In this work, we survey supervised disentanglement metrics and thoroughly analyze them. We propose a new taxonomy in which all metrics fall into one of three families: intervention-based, predictor-based and information-based. We conduct extensive experiments in which we isolate properties of disentangled representations, allowing stratified comparison along several axes. From our experiment results and analysis, we provide insights on relations between disentangled representation properties. Finally, we share guidelines on how to measure disentanglement.},
   journal={IEEE Transactions on Neural Networks and Learning Systems}, 
   title={Measuring Disentanglement: A Review of Metrics}, 
   year={2022},
@@ -50,6 +75,7 @@
 	title = {A Comparaison of Discrete and Soft Speech Units for Improved Voice Conversion},
 	isbn = {978-1-66540-540-9},
 	booktitle = {{ICASSP}},
+  abstract={The goal of voice conversion is to transform source speech into a target voice, keeping the content unchanged. In this paper, we focus on self-supervised representation learning for voice conversion. Specifically, we compare discrete and soft speech units as input features. We find that discrete representations effectively remove speaker information but discard some linguistic content - leading to mispronunciations. As a solution, we propose soft speech units. To learn soft units, we predict a distribution over discrete speech units. By modeling uncertainty, soft units capture more content information, improving the intelligibility and naturalness of converted speech.},
 	author = {{van Niekerk}, Benjamin and Carbonneau, Marc-André and Zaidi, Julian and Baas, Matthew and Seuté, Hugo and Kamper, Herman},
 	year = {2022},
 	pages = {6562--6566},
