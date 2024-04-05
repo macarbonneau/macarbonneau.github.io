@@ -1,12 +1,12 @@
 ---
 layout: post
-date: 2023-12-22 15:59:00-0400
+date: 2024-04-01 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
 
-We are excited to share our recent work on monocular 3D face reconstruction. We introduce [MoSAR](https://arxiv.org/abs/2312.13091), a new method that turns a portrait image into a realistic 3D avatar. 
+We are excited to share our recent work on monocular 3D face reconstruction that will be presented at [CVPR 2024](https://cvpr.thecvf.com/). We introduce [MoSAR](https://arxiv.org/abs/2312.13091), a new method that turns a portrait image into a realistic 3D avatar. 
 \
 \
 From a single image, MoSAR estimates a detailed mesh and texture maps at 4K resolution, capturing pore-level details. This avatar can be rendered from any viewpoint and under different lighting condition. 
