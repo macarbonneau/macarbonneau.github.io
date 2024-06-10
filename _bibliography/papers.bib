@@ -3,6 +3,39 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{zaidi_2023,
+	title = {The La Forge Speech Synthesis System for Blizzard Challenge 2023},
+	url = {https://www.isca-archive.org/blizzard_2023/zaidi23_blizzard.pdf},
+  abstract = {This paper describes the La Forge entry to the Blizzard Challenge of 2023 focusing on text-to-speech in French and homograph disambiguation. Our system is based on VAE-Tacotron and HiFi-GAN. We implement several improvements on the baseline models such as a cycle consistency loss for better style modeling, a style reference selection method to improve overall naturalness and an over-produce and select method that chooses the best synthesized candidate across multiple variations using automatic speech recognition. We also build a linguistic frontend capable of homograph disambiguation using part-of-speech tagging and simple rules. We publicly release our hand annotated data set for French homograph disambiguation1. Results from subjective listening tests show the effectiveness of our system in disambiguating homographs and generating high-quality synthetic speech.},
+	booktitle = {18th Blizzard Challenge Workshop - INTERSPEECH},
+	author = {Zaïdi, Julian and Duchêne, Corentin and Seuté, Hugo and Carbonneau, Marc-André},
+	year = {2023},
+	bibtex_show={true},
+  selected={false},
+}
+
+@inproceedings{vanniekerk2024WD,
+  bibtex_show={true},
+  author={{van Niekerk}, Benjamin and Zaïdi, Julian and Carbonneau, Marc-André and Kamper, Herman},
+  abstract={Discovering a lexicon from unlabeled audio is a longstanding challenge for zero-resource speech processing. One approach is to search for frequently occurring patterns in speech. We revisit this idea by proposing DUSTED: Discrete Unit Spoken-TErm Discovery. Leveraging self-supervised models, we encode input audio into sequences of discrete units. Inspired by alignment algorithms from bioinformatics, we find repeated speech patterns by searching for similar sub-sequences of units. Since discretization discards speaker information, DUSTED finds better matches across speakers, improving the coverage and consistency of the discovered patterns. We demonstrate these improvements on the ZeroSpeech Challenge, achieving state-of-the-art results on the spoken-term discovery track. Finally, we analyze the duration distribution of the patterns, showing that our method finds longer word- or phrase-like terms.},
+  booktitle = {{INTERSPEECH}},
+  title={Spoken-Term Discovery using Discrete Speech Units}, 
+  year={2024},
+  preview={word_disc.png},
+  selected={true}
+}
+
+@inproceedings{Davoodnia2024,
+  bibtex_show={true},
+  author={Davoodnia, Vandad and Ghorbani, Saeed and Carbonneau, Marc-André and Messier, Alexandre and Etemad, Ali},
+  abstract={We introduce UPose3D, a novel approach for multi-view 3D human pose estimation, addressing challenges in accuracy and scalability. Our method advances existing pose estimation frameworks by improving robustness and flexibility without requiring direct 3D annotations. At the core of our method, a pose compiler module refines predictions from a 2D keypoints estimator that operates on a single image by leveraging temporal and cross-view information. Our novel cross-view fusion strategy is scalable to any number of cameras, while our synthetic data generation strategy ensures generalization across diverse actors, scenes, and viewpoints. Finally, UPose3D leverages the prediction uncertainty of both the 2D keypoint estimator and the pose compiler module. This provides robustness to outliers and noisy data, resulting in state-of-the-art performance in out-of-distribution settings. In addition, for in-distribution settings, UPose3D yields a performance rivaling methods that rely on 3D annotated data, while being the state-of-the-art among methods relying only on 2D supervision.},
+  booktitle = {arXiv},
+  title={UPose3D: Uncertainty-Aware 3D Human Pose Estimation with Cross-View and Temporal Cues}, 
+  year={2024},
+  preview={markerless.png},
+  selected={false}
+}
+
 
 @inproceedings{Dib2023,
   bibtex_show={true},
