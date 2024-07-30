@@ -3,6 +3,8 @@
 
 @string{aps = {American Physical Society,}}
 
+
+
 @inproceedings{zaidi_2023,
 	title = {The La Forge Speech Synthesis System for Blizzard Challenge 2023},
 	url = {https://www.isca-archive.org/blizzard_2023/zaidi23_blizzard.pdf},
@@ -31,11 +33,11 @@
   bibtex_show={true},
   author={Davoodnia, Vandad and Ghorbani, Saeed and Carbonneau, Marc-André and Messier, Alexandre and Etemad, Ali},
   abstract={We introduce UPose3D, a novel approach for multi-view 3D human pose estimation, addressing challenges in accuracy and scalability. Our method advances existing pose estimation frameworks by improving robustness and flexibility without requiring direct 3D annotations. At the core of our method, a pose compiler module refines predictions from a 2D keypoints estimator that operates on a single image by leveraging temporal and cross-view information. Our novel cross-view fusion strategy is scalable to any number of cameras, while our synthetic data generation strategy ensures generalization across diverse actors, scenes, and viewpoints. Finally, UPose3D leverages the prediction uncertainty of both the 2D keypoint estimator and the pose compiler module. This provides robustness to outliers and noisy data, resulting in state-of-the-art performance in out-of-distribution settings. In addition, for in-distribution settings, UPose3D yields a performance rivaling methods that rely on 3D annotated data, while being the state-of-the-art among methods relying only on 2D supervision.},
-  booktitle = {arXiv},
+  booktitle = {ECCV},
   title={UPose3D: Uncertainty-Aware 3D Human Pose Estimation with Cross-View and Temporal Cues}, 
   year={2024},
   preview={markerless.png},
-  selected={false}
+  selected={true}
 }
 
 
@@ -59,6 +61,17 @@
   year={2024},
   preview={binalign.png},
   selected={true}
+}
+
+@inproceedings{Lopez2024ZCLT,
+  bibtex_show={true},
+  author={{Lopez Latouche}, Gaëtan and Carbonneau, Marc-André and Swanson, Ben},
+  abstract={Grammatical Error Detection (GED) methods rely heavily on human annotated error corpora. However, these annotations are unavailable in many low-resource languages. In this paper, we investigate GED in this context. Leveraging the zero-shot cross-lingual transfer capabilities of multilingual pre-trained language models, we train a model using data from a diverse set of languages to generate synthetic errors in other languages. These synthetic error corpora are then used to train a GED model. Specifically we propose a two-stage fine-tuning pipeline where the GED model is first fine-tuned on multilingual synthetic data from target languages followed by fine-tuning on human-annotated GED corpora from source languages. This approach outperforms current state-of-the-art annotation-free GED methods. We also analyse the errors produced by our method and other strong baselines, finding that our approach produces errors that are more diverse and more similar to human errors.},
+  booktitle = {ArXiv},
+  title={Zero-shot Cross-Lingual Transfer for Synthetic Data Generation in Grammatical Error Detection}, 
+  year={2024},
+  preview={ZCLT.png},
+  selected={false}
 }
 
 
