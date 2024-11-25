@@ -14,7 +14,7 @@
   --global-hover-color: #B509AC;
   --global-hover-text-color: #ffffff;
   --global-footer-bg-color: #1b1b2b;
-  --global-footer-text-color: #e3e4e5;
+  --global-footer-text-color: rgb(227.3571428571, 228.2142857143, 228.6428571429);
   --global-footer-link-color: #ffffff;
   --global-distill-app-color: #7b7f81;
   --global-divider-color: rgba(0,0,0,.1);
@@ -50,15 +50,15 @@
 html[data-theme=dark] {
   --global-bg-color: #1b1b2b;
   --global-code-bg-color: #2c3237;
-  --global-text-color: #e3e4e5;
-  --global-text-color-light: #e3e4e5;
+  --global-text-color: rgb(227.3571428571, 228.2142857143, 228.6428571429);
+  --global-text-color-light: rgb(227.3571428571, 228.2142857143, 228.6428571429);
   --global-theme-color: #B7D12A;
   --global-hover-color: #B7D12A;
   --global-hover-text-color: #ffffff;
-  --global-footer-bg-color: #e3e4e5;
+  --global-footer-bg-color: rgb(227.3571428571, 228.2142857143, 228.6428571429);
   --global-footer-text-color: #1b1b2b;
   --global-footer-link-color: #000000;
-  --global-distill-app-color: #e3e4e5;
+  --global-distill-app-color: rgb(227.3571428571, 228.2142857143, 228.6428571429);
   --global-divider-color: #424246;
   --global-card-bg-color: #212529;
   --global-tip-block: #42b983;
