@@ -6,8 +6,8 @@ subtitle:
 
 profile:
   align: right
-  image: moidehors.jpg
-  image_circular: false # crops the image to make it circular
+  image: Headshot_06.jpg
+  image_circular: true # crops the image to make it circular
   address: 
 
 news: true  # includes a list of news items
@@ -19,17 +19,8 @@ social: true  # includes social icons at the bottom of the page
 Welcome to my page! 
 
 This site contains information regarding my research and some personal projects.
-Here's a subset of my research interests:
-- Machine learning
-- Speech processing
-- Disentangled representations
-- Multiple instance learning
-- Computer vision
 
+I’m passionate about using the latest advances in machine learning, speech and signal processing, and visual computing to push the boundaries of video games.
 
-I act as principal research scientist at Ubisoft in the [La Forge lab](https://www.ubisoft.com/en-us/studio/laforge). I work there since 2017. 
-I lead a group of resarchers applying the latest techniques in machine learning, speech, signal processing, computer vision & graphics, animation to video games.
-
-Before that, as a PhD student, I was affiliated with two labs:
-- LIVIA - [Laboratory for Imagery, Vision and Artificial Intelligence](https://liviamtl.ca/)
-- LACIME - [Communication and Microelectronic Integration Laboratory](https://www.etsmtl.ca/unites-de-recherche/lacime/accueil?lang=en-CA)
+I currently work as a senior research scientist at [Epic Games](https://www.epicgames.com/site/en-US/home).
+Before that, I acted as principal research scientist at Ubisoft in the [La Forge lab](https://www.ubisoft.com/en-us/studio/laforge) between 2017 and 2025.

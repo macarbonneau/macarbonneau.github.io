@@ -17,6 +17,19 @@
 }
 
 
+@inproceedings{josi_2024,
+	title = {SEREP: Semantic Facial Expression Representation for Robust In-the-Wild Capture and Retargeting},
+	url = {https://arxiv.org/pdf/2412.14371},
+  abstract = {Monocular facial performance capture in-the-wild is challenging due to varied capture conditions, face shapes, and expressions. Most current methods rely on linear 3D Morphable Models, which represent facial expressions independently of identity at the vertex displacement level. We propose SEREP (Semantic Expression Representation), a model that disentangles expression from identity at the semantic level. It first learns an expression representation from unpaired 3D facial expressions using a cycle consistency loss. Then we train a model to predict expression from monocular images using a novel semi-supervised scheme that relies on domain adaptation. In addition, we introduce MultiREX, a benchmark addressing the lack of evaluation resources for the expression capture task. Our experiments show that SEREP outperforms state-of-the-art methods, capturing challenging expressions and transferring them to novel identities.},
+	booktitle = {6th AI for Creative Visual Content Generation Editing and Understanding (CVEU) - CVPR},
+	author = {Josi, Arthur and Hafemann, Luiz Gustavo and Dib, Abdallah and Got, Emeline and Cruz, Rafael MO and Carbonneau, Marc-André},
+	year = {2025},
+	bibtex_show={true},
+  preview={serep.png},
+  selected={false},
+}
+
+
 
 @inproceedings{vanniekerk2024WD,
   bibtex_show={true},
@@ -48,7 +61,7 @@
   booktitle = {{CVPR}},
   title={MoSAR: Monocular Semi-Supervised Model For Avatar Reconstruction Using Differentiable Shading}, 
   year={2024},
-  preview={mosar.gif},
+  preview={mosar.png},
   selected={true}
 }
 
@@ -320,7 +333,7 @@ address = {New York, NY, USA},
 url = {https://doi.org/10.1145/3424636.3426898},
 doi = {10.1145/3424636.3426898},
 abstract = {Manually creating realistic, digital human heads is a difficult and time-consuming task for artists. While 3D scanners and photogrammetry allow for quick and automatic reconstruction of heads, finding an actor who fits specific character appearance descriptions can be difficult. Moreover, modern open-world videogames feature several thousands of characters that cannot realistically all be cast and scanned. Therefore, researchers are investigating generative models to create heads fitting a specific character appearance description. While current methods are able to generate believable head shapes quite well, generating a corresponding high-resolution and high-quality texture which respects the character’s appearance description is not possible using current state of the art methods. This work presents a method that generates synthetic face textures under the following constraints: (i) there is no reference photograph to build the texture, (ii) game artists control the generative process by providing precise appearance attributes, the face shape, and the character’s age and gender, and (iii) the texture must be of adequately high resolution and look believable when applied to the given face shape. Our method builds upon earlier deep learning approaches addressing similar problems. We propose several key additions to these methods to be able to use them in our context, specifically for artist control and small training data. In spite of training with a limited amount of training data, just over 100 samples, our model produces realistic textures which comply to a diverse range of skin, hair, lip and iris colors specified through our intuitive description format and augmentation thereof.},
-booktitle = {Proceedings of the 13th ACM SIGGRAPH Conference on Motion, Interaction and Games},
+booktitle = {13th ACM SIGGRAPH Conference on Motion, Interaction and Games},
 articleno = {9},
 numpages = {11},
 keywords = {artist controlled character creation, image-to-image translation, face texture generation, fine facial features},
